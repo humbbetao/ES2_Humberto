@@ -1,3 +1,4 @@
 O arquivo ES2_TAP possui o termo de abertura de projeto.
 O arquivo RP2-CVL possui os requesitos do projeto 2 - Sistema Clube do Sócio.
-O arquivo PGP_01 possui o plano de gerenciamento de projeto.
+O arquivo PGP_02 possui o plano de gerenciamento de projeto.
+o arquivo CHKLIST03(Nelson) possui a avaliação periódica do testador sobre gerente.
