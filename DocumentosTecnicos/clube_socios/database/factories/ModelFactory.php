@@ -25,3 +25,13 @@ $factory->define(clubeSocios\Models\Category::class, function(Faker\Generator $f
 		'name' => $faker->word
 	];
 });
+
+$factory->define(clubeSocios\Models\Socio::class, function(Faker\Generator $faker) {
+	return [
+		'telefone' => $faker->phoneNumber,
+		'endereco' => $faker->address,
+		'cidade' => $faker->city,
+		'estado' => $faker->state,
+		'valor_mensalidade' => $faker->randomFloat
+	];
+});
