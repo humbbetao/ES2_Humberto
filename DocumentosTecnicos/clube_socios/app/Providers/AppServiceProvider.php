@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace clubeSocios\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

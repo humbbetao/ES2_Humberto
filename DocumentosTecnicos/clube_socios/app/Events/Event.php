@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace clubeSocios\Events;
 
 abstract class Event
 {

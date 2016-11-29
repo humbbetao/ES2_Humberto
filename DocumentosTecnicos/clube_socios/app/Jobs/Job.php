@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace clubeSocios\Jobs;
 
 use Illuminate\Bus\Queueable;
 

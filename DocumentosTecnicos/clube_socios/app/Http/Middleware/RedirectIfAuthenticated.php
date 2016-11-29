@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace clubeSocios\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
