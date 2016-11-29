@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => clubeSocios\User::class,
+    'model' => clubeSocios\Models\User::class,
 
     /*
     |--------------------------------------------------------------------------
