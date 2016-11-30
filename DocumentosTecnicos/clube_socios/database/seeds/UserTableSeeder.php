@@ -13,11 +13,9 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        //
         factory(User::class, 10)->create()->each(function($u){
-            $u->client()->save(factory(Socio::class)->make());
-
+            $u->socio()->save(factory(Socio::class)->make());
         });
-    }
+     }
     
 }
