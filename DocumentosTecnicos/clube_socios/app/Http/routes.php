@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('test', function(){
+
+	$repository = app()->make('clubeSocios\Repositories\CategoryRepository');
+	return $repository->all();
+});

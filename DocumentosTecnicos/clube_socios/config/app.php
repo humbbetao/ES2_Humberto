@@ -137,6 +137,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -144,6 +147,7 @@ return [
         clubeSocios\Providers\AuthServiceProvider::class,
         clubeSocios\Providers\EventServiceProvider::class,
         clubeSocios\Providers\RouteServiceProvider::class,
+        clubeSocios\Providers\RepositoryServiceProvider::class,
 
     ],
 

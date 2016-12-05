@@ -14,6 +14,12 @@ class CreateSociosUnidades extends Migration
     {
         Schema::create('socios_unidades', function (Blueprint $table) {
             $table->increments('id');
+
+            $table->integer('socio_id')->unsigned()->nullable();
+            $table->foreign('socio_id')->references('id')->on('socio');;
+
+            $table->integer('unidade_id')->unsigned()->nullable();
+            $table->foreign('unidade_id')->references('id')->on('unidade');;
             $table->timestamps();
         });
     }
@@ -27,4 +33,5 @@ class CreateSociosUnidades extends Migration
     {
         Schema::drop('socios_unidades');
     }
+
 }
