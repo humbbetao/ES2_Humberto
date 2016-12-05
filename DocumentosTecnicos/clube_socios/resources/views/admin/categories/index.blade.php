@@ -1,0 +1,1 @@
+<h1>Categories {{$nome}}</h1>

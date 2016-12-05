@@ -139,6 +139,7 @@ return [
 
 
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        Bestmomo\Scafold\ScafoldServiceProvider::class, 
 
         /*
          * Application Service Providers...
@@ -148,6 +149,7 @@ return [
         clubeSocios\Providers\EventServiceProvider::class,
         clubeSocios\Providers\RouteServiceProvider::class,
         clubeSocios\Providers\RepositoryServiceProvider::class,
+
 
     ],
 
