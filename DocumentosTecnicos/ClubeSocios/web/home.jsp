@@ -73,17 +73,23 @@
                         <li>
                             <a href="LoginServlet?op=#"><i class="fa fa-fw fa-plus-circle"></i> Dependetes</a>
                         </li>
-                        <!--                        <li>
-                                                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-info-circle"></i> <i class="fa fa-fw fa-caret-down"></i></a>
-                                                    <ul id="demo" class="collapse">
-                                                        <li>
-                                                            <a href="#">De</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Radames Halmeman</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>-->
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-info-circle"></i> Listar<i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="demo" class="collapse">
+                                <li>
+                                    <a href="#">Socios</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dependentes por Socio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Unidades</a>
+                                </li>
+                                <li>
+                                    <a href="#">Unidades por Sócio</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

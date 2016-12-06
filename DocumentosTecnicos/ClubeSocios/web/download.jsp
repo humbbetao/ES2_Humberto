@@ -83,7 +83,23 @@
                             <a href="LoginServlet?op=dependente"><i class="fa fa-fw fa-plus-circle"></i> Dependentes</a>
                         </li>
 
-
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-info-circle"></i> Listar<i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="demo" class="collapse">
+                                <li>
+                                    <a href="#">Socios</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dependentes por Socio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Unidades</a>
+                                </li>
+                                <li>
+                                    <a href="#">Unidades por Sócio</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -136,14 +152,46 @@
                                             </tr>
 
                                             <tr>
+                                                <td  style="width: 150px; height: 45px;">
+                                                    <b>País:</b>
+                                                </td>
+                                                <td>
+                                                    <input type="text" name="data_final">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td  style="width: 150px; height: 45px;">
+                                                    <b>Estado:</b>
+                                                </td>
+                                                <td>
+                                                    <input type="text" name="data_final">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td  style="width: 150px; height: 45px;">
+                                                    <b>Cidade:</b>
+                                                </td>
+                                                <td>
+                                                    <input type="text" name="data_final">
+                                                </td>
+                                            </tr>
+
+                                            <tr>
                                                 <td  style="width: 100px; height: 45px;">
                                                     <b>Valor Mensalidade:</b>
                                                 </td>
                                                 <td>
                                                     <input type="text" name="data_final">
                                                 </td>
-
                                             </tr>
+
+                                            <td  style="width: 100px; height: 45px;">
+                                                <b>Unidades:</b>
+                                            </td>
+                                            <td>
+                                                <select name="sensor" style="width: 250px; height: 25px;"></select>
+                                            </td>
+
 
                                         </table>
                                         <input type="submit" value="Cadastrar" name="op" style="width: 150px; height: 25px; margin-left: 120px; margin-top: 15px;">
