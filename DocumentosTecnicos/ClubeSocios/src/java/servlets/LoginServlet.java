@@ -60,6 +60,11 @@ public class LoginServlet extends HttpServlet {
 //            session.setAttribute("editarPerfil", false);
             response.sendRedirect("unidade.jsp");
 
+                    } else if (op.equals("dependente")) {
+            HttpSession session = request.getSession(true);
+            session.setAttribute("isLogado", true);
+//            session.setAttribute("editarPerfil", false);
+            response.sendRedirect("dependente.jsp");
         } else if ("sair".equals(op)) {
             HttpSession session = request.getSession(false);
             if (session != null) {

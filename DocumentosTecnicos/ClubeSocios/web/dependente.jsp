@@ -27,7 +27,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Cadastro Unidade</title>
+        <title>Cadastro Dependente</title>
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
@@ -76,11 +76,11 @@
                         </li>
 
                         <li class="active">
-                            <a href="#"><i class="fa fa-fw fa-plus-circle"></i> Unidade</a>
+                            <a href="LoginServlet?op=unidade"><i class="fa fa-fw fa-plus-circle"></i> Dependente</a>
                         </li>
-                        
+
                         <li>
-                            <a href="LoginServlet?op=dependente"><i class="fa fa-fw fa-plus-circle"></i> Dependentes</a>
+                            <a href="#"><i class="fa fa-fw fa-plus-circle"></i> Dependentes</a>
                         </li>
 
                     </ul>
@@ -97,11 +97,11 @@
                         <div class="col-lg-12">
 
                             <h2 class="page-header">
-                                Cadastro <small>unidade</small>
+                                Cadastro <small>dependente</small>
                             </h2>
                             <ol class="breadcrumb">
                                 <li class="active">
-                                    <i class="fa fa-plus-circle"></i> Unidade Cadastro
+                                    <i class="fa fa-plus-circle"></i> Dependente Cadastro
                                 </li>
 
                             </ol>
@@ -126,6 +126,13 @@
                                                     <input type="text" name="data_final">
                                                 </td>
                                             </tr>
+
+                                            <td  style="width: 100px; height: 45px;">
+                                                <b>Socio:</b>
+                                            </td>
+                                            <td>
+                                                <select name="sensor" style="width: 250px; height: 25px;"></select>
+                                            </td>
 
 
 

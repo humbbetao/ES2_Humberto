@@ -76,11 +76,11 @@
                         </li>
 
                         <li>
-                            <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-plus-circle"></i> Unidade</a>
+                            <a href="LoginServlet?op=unidade"><i class="fa fa-fw fa-plus-circle"></i> Unidade</a>
                         </li>
 
                         <li>
-                            <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-plus-circle"></i> Dependentes</a>
+                            <a href="LoginServlet?op=dependente"><i class="fa fa-fw fa-plus-circle"></i> Dependentes</a>
                         </li>
 
 
