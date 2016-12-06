@@ -14,7 +14,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Sol pro Brasil</title>
+        <title>Clube Socios</title>
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
@@ -63,23 +63,27 @@
                             <a href="#"><i class="fa fa-fw fa-home"></i> Inicio</a>
                         </li>
                         <li>
-                            <a href="LoginServlet?op=download"><i class="fa fa-fw fa-download"></i> Download</a>
+                            <a href="LoginServlet?op=download"><i class="fa fa-fw fa-plus-circle"></i> Socio</a>
                         </li>
 
                         <li>
-                            <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-book"></i> Contato</a>
+                            <a href="LoginServlet?op=#"><i class="fa fa-fw fa-plus-circle"></i> Unidade</a>
                         </li>
+
                         <li>
-                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-info-circle"></i> Sobre<i class="fa fa-fw fa-caret-down"></i></a>
-                            <ul id="demo" class="collapse">
-                                <li>
-                                    <a href="#">Cris Halmeman</a>
-                                </li>
-                                <li>
-                                    <a href="#">Radames Halmeman</a>
-                                </li>
-                            </ul>
+                            <a href="LoginServlet?op=#"><i class="fa fa-fw fa-plus-circle"></i> Dependetes</a>
                         </li>
+                        <!--                        <li>
+                                                    <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-info-circle"></i> <i class="fa fa-fw fa-caret-down"></i></a>
+                                                    <ul id="demo" class="collapse">
+                                                        <li>
+                                                            <a href="#">De</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Radames Halmeman</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>-->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -93,7 +97,7 @@
                         <div class="col-lg-12">
                             <!--<div id="logo"> </div>--> 
                             <h1 class="page-header">
-                                Sol Pro Brasil  <!--<small>Statistics Overview</small>-->
+                                Clube Socios  <!--<small>Statistics Overview</small>-->
                             </h1>
                             <ol class="breadcrumb">
                                 <li class="active">

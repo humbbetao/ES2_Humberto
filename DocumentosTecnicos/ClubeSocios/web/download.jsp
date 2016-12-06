@@ -27,7 +27,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Download</title>
+        <title>Cadastro Socio</title>
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
@@ -48,7 +48,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Download Dados</a>
+                    <a class="navbar-brand" href="#">Dados Cadatro</a>
                 </div>
                 <!-- Top Menu Items -->
                 <ul class="nav navbar-right top-nav">
@@ -79,17 +79,6 @@
                             <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-book"></i> Contato</a>
                         </li>
 
-                        <li>
-                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-info-circle"></i> Sobre <i class="fa fa-fw fa-caret-down"></i></a>
-                            <ul id="demo" class="collapse">
-                                <li>
-                                    <a href="#">Cris Halmeman</a>
-                                </li>
-                                <li>
-                                    <a href="#">Radames Halmeman</a>
-                                </li>
-                            </ul>
-                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -104,11 +93,11 @@
                         <div class="col-lg-12">
 
                             <h2 class="page-header">
-                                Download <small>coleta de dados</small>
+                                Cadastro <small>socio</small>
                             </h2>
                             <ol class="breadcrumb">
                                 <li class="active">
-                                    <i class="fa fa-download"></i> Download
+                                    <i class="fa fa-plus-circle"></i> Socio Cadastro
                                 </li>
 
                             </ol>
