@@ -114,62 +114,34 @@
                                         <table style="margin-top: 10px; margin-left: 0px;">
                                             <tr>
                                                 <td  style="width: 70px; height: 45px;">
-                                                    <b>Data Inicial:</b>
+                                                    <b>Nome:</b>
                                                 </td>
-
                                                 <td> 
-                                                    <input type="text" name="data_inicial" onkeypress="mascara(this, '##-##-####')" maxlength="10">
+                                                    <input type="text" name="data_inicial" >
                                                 </td>
+                                            </tr>
 
-                                                <td  style="width: 50px; height: 45px;">
-                                                    <b>Hora:</b>
-                                                </td>
-                                                <td>
-                                                    <input type="text" name="hora_inicial" onkeypress="mascara(this, '##:##:##')" maxlength="8">
-                                                </td>
-                                            </tr>
-                                            </tr>
                                             <tr>
-                                                <td  style="width: 100px; height: 45px;">
-                                                    <b>Data Final:</b>
+                                                <td  style="width: 150px; height: 45px;">
+                                                    <b>Endereço:</b>
                                                 </td>
                                                 <td>
-                                                    <input type="text" name="data_final" onkeypress="mascara(this, '##-##-####')" maxlength="10">
-                                                </td>
-                                                <td>
-                                                    <b>Hora:</b>
-                                                </td>
-                                                <td>
-                                                    <input type="text" name="hora_final" onkeypress="mascara(this, '##:##:##')" maxlength="8">
+                                                    <input type="text" name="data_final">
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td  style="width: 100px; height: 45px;">
-                                                    <b>Sensor:</b>
+                                                    <b>Valor Mensalidade:</b>
                                                 </td>
                                                 <td>
-                                                    <select name="sensor" style="width: 250px; height: 25px;">
-                                                        <%
-                                                            out.println("<option value=\"-1\"> Escolha um tipo de sensor </option>");
-                                                            out.println("<option value=\"1\"> 1   - Sensor de Corrente </option>");
-                                                            out.println("<option value=\"2\"> 2   - Sensor de Corrente </option>");
-                                                            out.println("<option value=\"3\"> 3   - Sensor de Corrente </option>");
-                                                            out.println("<option value=\"4\"> 4   - Sensor de Corrente </option>");
-                                                            out.println("<option value=\"5\"> 5   - Sensor de Corrente </option>");
-                                                            out.println("<option value=\"6\"> 6   - Sensor de Tensão </option>");
-                                                            out.println("<option value=\"7\"> 7   - Sensor de Tensão </option>");
-                                                            out.println("<option value=\"8\"> 8   - Sensor de Tensão </option>");
-                                                            out.println("<option value=\"9\"> 9   - Sensor de Tensão </option>");
-                                                            out.println("<option value=\"10\"> 10 - Sensor de Tensão </option>");
-                                                            out.println("<option value=\"11\"> 11 - Sensor de Tensão </option>");
-                                                        %>
-                                                    </select>
+                                                    <input type="text" name="data_final">
                                                 </td>
+
                                             </tr>
 
                                         </table>
-                                        <input type="submit" value="Download" name="op" style="width: 150px; height: 25px; margin-left: 120px; margin-top: 15px;">
+                                        <input type="submit" value="Cadastrar" name="op" style="width: 150px; height: 25px; margin-left: 120px; margin-top: 15px;">
                                         <input type="reset" value="Limpar" style="width: 150px; height: 25px; margin-left: 35px; margin-top: 15px;" >
                                     </form>
 
