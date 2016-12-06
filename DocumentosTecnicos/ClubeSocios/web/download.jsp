@@ -72,12 +72,17 @@
                             <a href="home.jsp"><i class="fa fa-fw fa-home"></i> Inicio</a>
                         </li>
                         <li class="active">
-                            <a href="#"><i class="fa fa-fw fa-download"></i> Download</a>
+                            <a href="#"><i class="fa fa-fw fa-plus-circle"></i> Socio</a>
                         </li>
 
                         <li>
-                            <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-book"></i> Contato</a>
+                            <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-plus-circle"></i> Unidade</a>
                         </li>
+
+                        <li>
+                            <a href="LoginServlet?op=contato"><i class="fa fa-fw fa-plus-circle"></i> Dependentes</a>
+                        </li>
+
 
                     </ul>
                 </div>
