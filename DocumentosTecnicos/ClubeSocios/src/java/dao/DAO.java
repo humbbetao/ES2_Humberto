@@ -90,6 +90,7 @@ public class DAO {
         }
     }
 //
+
     public static Usuario buscaNomeUsuario(String email) throws ClassNotFoundException, InstantiationException, IllegalAccessException, SQLException {
         Connection conexao = null;
         PreparedStatement pst = null;
@@ -159,7 +160,6 @@ public class DAO {
 //        }
 //        return listaResultado;
 //    }
-
     public static List<String> listaDatas() throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
         Connection conexao = null;
         PreparedStatement pst = null;
@@ -176,7 +176,42 @@ public class DAO {
             listaResultado.add(String.valueOf(rs.getTimestamp("datahora_coleta_dados")));
         }
         return listaResultado;
+    }
 
+    public static Usuario buscaSocio(int id) throws ClassNotFoundException, InstantiationException, IllegalAccessException, SQLException {
+        Connection conexao = null;
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+
+        Class.forName(driver).newInstance();
+        conexao = DriverManager.getConnection(url + dbName, userName, password);
+        pst = conexao.prepareStatement("select * from usuario where id = " + "'" + id + "'");
+
+        rs = pst.executeQuery();
+        String aux = "";
+        Usuario u = new Usuario();
+        while (rs.next()) {
+            u.setEmail(rs.getString("email"));
+            u.setSenha(rs.getString("senha"));
+        }
+        return u;
+    }
+    
+        public static List buscaUnidade() throws ClassNotFoundException, InstantiationException, IllegalAccessException, SQLException {
+        Connection conexao = null;
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+
+        Class.forName(driver).newInstance();
+        conexao = DriverManager.getConnection(url + dbName, userName, password);
+        pst = conexao.prepareStatement("select nome from unidade");
+
+        rs = pst.executeQuery();
+        ArrayList<String> uni = new ArrayList<>();
+        while (rs.next()) {
+            uni.add(rs.getString("nome"));
+        }
+        return uni;
     }
 
 //    public static boolean gravaLogUsuario(String data, String dados, String email) {
@@ -200,7 +235,6 @@ public class DAO {
 //            return false;
 //        }
 //    }
-
 //    public static boolean atualizarUsuario(String nome, String senha, String email) {
 //        Connection conexao = null;
 //        PreparedStatement pst = null;
@@ -221,5 +255,4 @@ public class DAO {
 //            return false;
 //        }
 //    }
-
 }
